@@ -1,0 +1,361 @@
+/*Juego
+Alexis Friedrich
+29/04/2015
+*/
+#include <iostream>
+using namespace std;
+int main()
+{int aaa = 0;
+while (aaa !=1){
+cout<<"Seleccione con el numero el cuestionario que quiera hacer "<<endl;
+cout<<"1-Records mundiales"<< endl;
+cout<<"2-Cultura general"<< endl;
+cout<<"Para salir del cuestionario escriba el numero 3"<<endl;
+int numerodecuestinoario;
+cin>>numerodecuestinoario;
+if (numerodecuestinoario==3)
+		return 0;
+if (numerodecuestinoario==1)
+	{cout<<"Las siguientes preguntas son de records mundiales:"<<endl;
+	cout<<"Indique con la letra correspondiente su respuesta"<< endl;
+	cout<<"Para salir del cuestionario escriba la letra d"<<endl;
+	cout<<"1)Cuantos metros hizo en monopatin una cabra para obtener su record?"<<endl;
+	cout<<"a)25 metros"<<endl;
+	cout<<"b)28 metros"<<endl;
+	cout<<"c)36 metros"<<endl;
+	char a;
+	cin>>a;
+	if (a=='d')
+		return 0;
+	if (a=='c')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta c"<<endl;
+	cout<<"2)En que tiempo record cruzo un perro una cuerda de 3,5 metros?"<<endl;
+	cout<<"a)15 segundos"<<endl;
+	cout<<"b)18 segundos"<<endl;
+	cout<<"c)22 segundos"<<endl;
+	char b;
+	cin>>b;
+	if (b=='d')
+		return 0;
+	if (b=='b')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto,respuesta correcta b"<<endl;
+	cout<<"3)Cuantas aspiradoras tiene el mayor coleccionista de aspiradoras?"<<endl;
+	cout<<"a)322"<<endl;
+	cout<<"b)346"<<endl;
+	cout<<"c)389"<<endl;
+	char c;
+	cin>>c;
+	if (c=='d')
+		return 0;
+	if (c=='a')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta a"<<endl;
+	cout<<"4)en que tiempo record recorrio 100 metros una corredora con tacos altos?"<<endl;
+	cout<<"a)10 segundos"<<endl;
+	cout<<"b)14 segundos"<<endl;
+	cout<<"c)18 segundos"<<endl;
+	char d;
+	cin>>d;
+	if (d=='d')
+		return 0;
+	if (d=='b')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta b"<<endl;
+	cout<<"5)en que tiempo record logro una persona recorrer 20 metros haciendo el puente?"<<endl;
+	cout<<"a)7 segundos"<<endl;
+	cout<<"b)10 segundos"<<endl;
+	cout<<"c)13 segundos"<<endl;
+	char e;
+	cin>>e;
+	if (e=='d')
+		return 0;
+	if (e=='b')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta b"<<endl;
+	cout<<"6)cuantos objetos de star wars tiene el mayor coleccionista?"<<endl;
+	cout<<"a)150000"<<endl;
+	cout<<"b)215000"<<endl;
+	cout<<"c)300000"<<endl;
+	char f;
+	cin>>f;
+	if (f=='d')
+		return 0;
+	if (f=='c')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta c"<<endl;
+	cout<<"7) cuanto mide el perro mas chiquito del mundo?"<<endl;
+	cout<<"a)9,65 cm"<<endl;
+	cout<<"b)10,5 cm"<<endl;
+	cout<<"c)11,2 cm"<<endl;
+	char g;
+	cin>>g;
+	if (g=='d')
+		return 0;
+	if (g=='a')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta a"<<endl;
+	cout<<"8)cuanto tiene de alto la moto mas grande del mundo?"<<endl;
+	cout<<"a)3 metros"<<endl;
+	cout<<"b)5 metros"<<endl;
+	cout<<"c)7 metros"<<endl;
+	char h;
+	cin>>h;
+	if (h=='d')
+		return 0;
+	if (h=='b')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta b"<<endl;	
+	cout<<"9)cuantos centimetros tiene la barra de limbo con la que un patinador rompió su record?"<<endl;
+	cout<<"a)15 cm"<<endl;
+	cout<<"b)20 cm"<<endl;
+	cout<<"c)25 cm"<<endl;
+	char i;
+	cin>>i;
+	if (i=='d')
+		return 0;
+	if (i=='c')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta c"<<endl;
+	cout<<"10)cuantos metros de largo tiene el dinosaurio robotico mas grande del mundo?"<<endl;
+	cout<<"a)8 metros"<<endl;
+	cout<<"b)10 metros"<<endl;
+	cout<<"c)12 metros"<<endl;
+	char j;
+	cin>>j;
+	if (j=='d')
+		return 0;
+	if (j=='a')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta a"<<endl;
+	int aa,ab,ac,ad,ae,af,ag,ah,ai,aj;
+	if (a=='c')
+		aa=1;
+		else
+			aa=0;
+	if (b=='b')
+		ab=1;
+		else
+			ab=0;
+	if (c=='a')
+		ac=1;
+		else
+			ac=0;
+	if (d=='b')
+		ad=1;
+		else
+			ad=0;
+	if (e=='b')
+		ae=1;
+		else
+			ae=0;
+	if (f=='c')
+		af=1;
+		else
+			af=0;
+	if (g=='a')
+		ag=1;
+		else
+			ag=0;
+	if (h=='b')
+		ah=1;
+		else
+			ah=0;
+	if (i=='c')
+		ai=1;
+		else
+			ai=0;
+	if (j=='a')
+		aj=1;
+		else
+			aj=0;			
+	cout<<"Fin del cuestionario"<<endl;
+	cout<<"puntaje total "<<aa+ab+ac+ad+ae+af+ag+ah+ai+aj <<" de 10"<<endl;
+	cout<<"Para salir del cuestionario escriba el numero 1"<<endl;
+	cout<<"Para volver al menu de cuestionarios precione cualquier otro numero"<<endl;
+	cin>>aaa;
+	}
+if (numerodecuestinoario==2)
+	{cout<<"Las siguientes preguntas evaluaran su conocimiento d ecultura general"<<endl;
+	cout<<"Indique con la letra correspondiente su respuesta"<< endl;
+	cout<<"Para salir del cuestionario escriba la letra d"<<endl;
+	cout<<"1)Quien 'sabia que no sabia nada'?"<<endl;
+	cout<<"a)Aristoteles"<<endl;
+	cout<<"b)Ortega y Gasset"<<endl;
+	cout<<"c)Socrates"<<endl;
+	char k;
+	cin>>k;
+	if (k=='d')
+		return 0;
+	if (k=='c')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta c"<<endl;
+	cout<<"2)Quien es el autor del Gaucho Martin Fierro?"<<endl;
+	cout<<"a)Martin Fierro"<<endl;
+	cout<<"b)Jose Hernandez"<<endl;
+	cout<<"c)El autor es anonimo"<<endl;
+	char l;
+	cin>>l;
+	if (l=='d')
+		return 0;
+	if (l=='b')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta b"<<endl;
+	cout<<"3)Como muere don Quijote?"<<endl;
+	cout<<"a)Se cae del caballo cuando acomete al molino que confunde con un gigante"<<endl;
+	cout<<"b)En un enfrentamiento con bandoleros"<<endl;
+	cout<<"c)En la cama"<<endl;
+	char m;
+	cin>>m;
+	if (m=='d')
+		return 0;
+	if (m=='c')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta c"<<endl;
+	cout<<"4)Que regimen tiene China?"<<endl;
+	cout<<"a)Comunista"<<endl;
+	cout<<"b)Maoista"<<endl;
+	cout<<"c)Capitalista"<<endl;
+	char n;
+	cin>>n;
+	if (n=='d')
+		return 0;
+	if (n=='a')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta a"<<endl;
+	cout<<"5)A que edificio trepo King Kong?"<<endl;
+	cout<<"a)A la Casa Blanca"<<endl;
+	cout<<"b)Al Empire State"<<endl;
+	cout<<"c)A la Torre Eiffel"<<endl;
+	char o;
+	cin>>o;
+	if (o=='d')
+		return 0;
+	if (o=='b')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta b"<<endl;
+	cout<<"6)por quien fue hecha la primera circunnavegacion del mundo?"<<endl;
+	cout<<"a)Magallanes"<<endl;
+	cout<<"b)Colon"<<endl;
+	cout<<"c)Elcano"<<endl;
+	char p;
+	cin>>p;
+	if (p=='d')
+		return 0;
+	if (p=='c')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta c"<<endl;
+	cout<<"7)en donde esta ambientada la obra Romeo y Julieta?"<<endl;
+	cout<<"a)Londres"<<endl;
+	cout<<"b)Teruel"<<endl;
+	cout<<"c)Verona"<<endl;
+	char q;
+	cin>>q;
+	if (q=='d')
+		return 0;
+	if (q=='c')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta c"<<endl;
+	cout<<"8)Que pais no tiene al euro como moneda?"<<endl;
+	cout<<"a)Portugal"<<endl;
+	cout<<"b)Suiza"<<endl;
+	cout<<"c)Francia"<<endl;
+	char r;
+	cin>>r;
+	if (r=='d')
+		return 0;
+	if (r=='b')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta b"<<endl;
+	cout<<"9)Que enfermedad se considera erradicada?"<<endl;
+	cout<<"a)Peste"<<endl;
+	cout<<"b)Viruela"<<endl;
+	cout<<"c)Colera"<<endl;
+	char s;
+	cin>>s;
+	if (s=='d')
+		return 0;
+	if (s=='b')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta b"<<endl;
+	cout<<"10)que parte del universo ocupa la materia?"<<endl;
+	cout<<"a)la mayor parte"<<endl;
+	cout<<"b)la mitad"<<endl;
+	cout<<"c)una pequeña parte"<<endl;
+	char t;
+	cin>>t;
+	if (t=='d')
+		return 0;
+	if (t=='c')
+		cout<<"correcto"<<endl;
+		else
+			cout<<"incorrecto, respuesta correcta c"<<endl;	
+	int ak,al,am,an,ao,ap,aq,ar,as,at;
+	if (k=='c')
+		ak=1;
+		else
+			ak=0;
+	if (l=='b')
+		al=1;
+		else
+			al=0;
+	if (m=='c')
+		am=1;
+		else
+			am=0;
+	if (n=='a')
+		an=1;
+		else
+			an=0;
+	if (o=='b')
+		ao=1;
+		else
+			ao=0;
+	if (p=='c')
+		ap=1;
+		else
+			ap=0;
+	if (q=='c')
+		aq=1;
+		else
+			aq=0;
+	if (r=='b')
+		ar=1;
+		else
+			ar=0;
+	if (s=='b')
+		as=1;
+		else
+			as=0;
+	if (t=='c')
+		at=1;
+		else
+			at=0;
+	cout<<"Fin del cuestionario"<<endl;
+	cout<<"puntaje total "<<ak+al+am+an+ao+ap+aq+ar+as+at<<" de 10"<<endl;
+	cout<<"Para salir del cuestionario escriba el numero 1"<<endl;
+	cout<<"Para volver al menu de cuestionarios precione cualquier otro numero"<<endl;
+	cin>>aaa;
+	}
+}
+}
